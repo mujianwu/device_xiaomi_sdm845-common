@@ -362,11 +362,6 @@ PRODUCT_COPY_FILES += \
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
-# Protobuf
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat \
-    libprotobuf-cpp-lite-vendorcompat
-
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
